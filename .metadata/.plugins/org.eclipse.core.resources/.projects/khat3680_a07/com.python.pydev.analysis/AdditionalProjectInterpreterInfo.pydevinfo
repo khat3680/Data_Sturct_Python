@@ -1,0 +1,26 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_a07/com.python.pydev.analysis/v2_indexcache
+t01|1584295474080670000|/Users/anshul/Documents/CP164/khat3680_a07/src/t01.py
+t03|1584076599464783000|/Users/anshul/Documents/CP164/khat3680_a07/src/t03.py
+t02|1584328794310604000|/Users/anshul/Documents/CP164/khat3680_a07/src/t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+6=t01
+4=t03
+2=t02
+3=/Users/anshul/Documents/CP164/khat3680_a07/src/t03.py
+1=/Users/anshul/Documents/CP164/khat3680_a07/src/t02.py
+5=/Users/anshul/Documents/CP164/khat3680_a07/src/t01.py
+-- END DICTIONARY
+-- START TREE 1
+4
+sou|7|source_2!1^31#1*19@source_2!3^15#1*35@source!5^13#1*51@source_2!5^14#1*51@source!3^14#1*35@source_3!3^16#1*35@source_3!5^15#1*51@
+t|2|t!3^18#1*35@t!5^17#1*51@
+t2|2|t2!3^19#1*35@t2!5^18#1*51@
+tar|2|target!3^17#1*35@target!5^16#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

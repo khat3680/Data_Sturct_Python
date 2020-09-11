@@ -1,0 +1,107 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Anshul Khatri
+ID:      193313680
+Email:   khat3680@mylaurier.ca
+Section: CP164 Winter 2020
+__updated__ = "2020-03-22"
+-------------------------------------------------------
+"""
+
+t01
+-------------------------------------------------------
+Hashes
+Hash     Slot Key
+======== ==== ====================
+     695   2Lasagna,7
+    1355   4Butter Chicken,2
+    1284   3Moo Goo Guy Pan,1
+    1521   2Vegetable Alicha,3
+    1147   6Spanakopita,5
+    1132   5Chirashi Don,6
+    1244   5Canuck Burger,0
+     949   4Turducken,8
+    1277   3Shark Fin Soup,1
+     704   4Chamuco,4
+     518   0Natto,6
+    1630   6Canada Goose Chili,0
+    3011   1Diet Free-Range Gluten-free Water,8
+    1450   1Kung Pao Chicken,1
+    1751   1General Tao Chicken,1
+    2130   2Spicy Vegetable Moo Shu,1
+     657   6BBQ Pork,1
+    1329   6Orange Chicken,1
+    2595   5Vegetables with Cashew Nuts,1
+    1232   0Lemon Chicken,1
+    2027   4Beef with Green Pepper,1
+    1760   3Sweet and Sour Pork,1
+    1492   1Szechuan Shrimp,1
+     740   5Poutine,0
+    1046   3Teppanyaki,6
+    1011   3Greek Salad,5
+    1034   5Fettuccine,7
+     834   1Teriyaki,6
+    1070   6Shortbread ,9
+     729   1Pavlova,10
+    1889   6Hokey Pokey Ice Cream,10
+     615   6Fricot,0
+     956   4Chip Butty,11
+    1357   6Grilled Salmon,0
+     726   5Ravioli,7
+     495   5Crepe,7
+     909   6Fried Rice,1
+    1504   6Pepperoni Pizza,7
+    1204   0Chicken Kabob,2
+    1072   1Panzerotti,7
+    1183   0Spring Rolls,1
+    1551   4Chicken Chow Mein,1
+    1245   6Chicken Wings,8
+
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Hash set after inserting
+22
+44
+11
+33
+55
+
+After removing
+22
+44
+11
+55
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+7 slots
+
+==============================
+Slot 0
+Slot 1
+22
+
+Slot 2
+44
+
+Slot 3
+Slot 4
+11
+
+Slot 5
+33
+
+Slot 6
+55
+
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+-------------------------------------------------------

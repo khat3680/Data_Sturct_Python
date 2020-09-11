@@ -1,0 +1,59 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_a01/com.python.pydev.analysis/v2_indexcache
+t10|1579239779692668000|/Users/anshul/Documents/CP164/khat3680_a01/src/t10.py
+functions|1579479263027149000|/Users/anshul/Documents/CP164/khat3680_a01/src/functions.py
+t01|1579241193147428000|/Users/anshul/Documents/CP164/khat3680_a01/src/t01.py
+t03|1579241697474887000|/Users/anshul/Documents/CP164/khat3680_a01/src/t03.py
+t02|1579194415077289000|/Users/anshul/Documents/CP164/khat3680_a01/src/t02.py
+t05|1579240060521331000|/Users/anshul/Documents/CP164/khat3680_a01/src/t05.py
+t04|1579239961781262000|/Users/anshul/Documents/CP164/khat3680_a01/src/t04.py
+t07|1579239917495031000|/Users/anshul/Documents/CP164/khat3680_a01/src/t07.py
+t06|1579240066146450000|/Users/anshul/Documents/CP164/khat3680_a01/src/t06.py
+t09|1579239862816792000|/Users/anshul/Documents/CP164/khat3680_a01/src/t09.py
+t08|1579239894399702000|/Users/anshul/Documents/CP164/khat3680_a01/src/t08.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+17=/Users/anshul/Documents/CP164/khat3680_a01/src/t09.py
+19=/Users/anshul/Documents/CP164/khat3680_a01/src/t10.py
+13=/Users/anshul/Documents/CP164/khat3680_a01/src/t08.py
+9=/Users/anshul/Documents/CP164/khat3680_a01/src/t06.py
+12=functions
+5=/Users/anshul/Documents/CP164/khat3680_a01/src/t07.py
+7=/Users/anshul/Documents/CP164/khat3680_a01/src/t05.py
+3=/Users/anshul/Documents/CP164/khat3680_a01/src/t03.py
+11=/Users/anshul/Documents/CP164/khat3680_a01/src/functions.py
+20=t10
+2=t01
+1=/Users/anshul/Documents/CP164/khat3680_a01/src/t01.py
+4=t03
+15=/Users/anshul/Documents/CP164/khat3680_a01/src/t02.py
+16=t02
+8=t05
+6=t07
+10=t06
+18=t09
+14=t08
+-- END DICTIONARY
+-- START TREE 1
+15
+a|1|a!1^13#1*19@
+a2|1|a2!3^13#1*35@
+c|3|c!5^14#1*51@c!7^12#1*67@c!9^16#1*83@
+dsm|1|dsmvwl!11^229#5*98@
+fil|1|file_analyze!11^194#5*98@
+fv|1|fv!13^12#1*115@
+is_|1|is_valid!11^34#5*98@
+len|1|lent!1^14#1*19@
+mat|5|matrixes_add!11^117#5*98@matrix_rotate_right!11^167#5*98@matrix_stats!11^62#5*98@matrixes_multiply!11^141#5*98@matrix_flatten!11^96#5*98@
+max|1|max_diff!11^14#5*98@
+nam|1|name!15^12#1*131@
+num|1|number_s!1^16#5*19@
+pig|1|pig_latin!11^251#5*98@
+s|1|s!17^12#1*147@
+wor|1|word!19^12#1*163@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,24 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_l10/com.python.pydev.analysis/v2_indexcache
+test_Sorts_array|1585872258130102000|/Users/anshul/Documents/CP164/khat3680_l10/src/test_Sorts_array.py
+test_Sorts_List_linked|1585868330954436000|/Users/anshul/Documents/CP164/khat3680_l10/src/test_Sorts_List_linked.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=/Users/anshul/Documents/CP164/khat3680_l10/src/test_Sorts_List_linked.py
+4=test_Sorts_array
+2=test_Sorts_List_linked
+3=/Users/anshul/Documents/CP164/khat3680_l10/src/test_Sorts_array.py
+-- END DICTIONARY
+-- START TREE 1
+5
+cre|6|create_sorted!1^35#5*18@create_sorted!3^39#5*34@create_randoms!3^82#5*34@create_reversed!3^62#5*34@create_reversed!1^54#5*18@create_randoms!1^73#5*18@
+siz|2|SIZE!1^22#1*19@SIZE!3^20#1*35@
+sor|2|SORTS!1^32#1*19@SORTS!3^36#1*35@
+tes|4|test_sort!1^100#5*18@test_sort!3^112#5*34@TESTS!1^24#1*19@TESTS!3^22#1*35@
+xra|2|XRANGE!1^23#1*19@XRANGE!3^21#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

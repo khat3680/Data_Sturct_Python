@@ -1,0 +1,149 @@
+--------------------
+Testing BST equal operator:
+
+bst1 = []
+bst2 = []
+bst1 == bst2? True
+
+bst1 = [25, 30]
+bst2 = [25, 30, 40]
+bst1 == bst2? False
+
+bst1 = [9, 11, 12, 13, 18, 19, 20, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst2 = [9, 11, 12, 13, 18, 19, 20, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst1 == bst2? True
+
+bst1 = [9, 11, 12, 13, 18, 19, 20, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst2 = [9, 11, 12, 13, 18, 19, 20, 25, 30, 33, 34, 35, 38, 40, 44]
+bst1 == bst2? False
+
+bst1 = [9, 11, 12, 13, 18, 19, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst2 = [9, 11, 12, 13, 18, 19, 20, 25, 30, 33, 34, 35, 38, 40, 44]
+bst1 == bst2? False
+
+End of BST equality operator testing testing
+--------------------
+
+--------------------
+Testing BST.valid:
+
+bst = []
+bst.valid() = True
+
+bst = [9, 11, 12, 13, 18, 19, 20, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst.valid() = True
+
+change bst property (change 19 to 29):
+bst = [9, 11, 12, 13, 18, 29, 20, 25, 30, 32, 33, 34, 35, 38, 40, 44]
+bst.valid() = False
+
+change bst property (change 38 to 48):
+bst = [9, 11, 12, 13, 18, 19, 20, 25, 30, 32, 33, 34, 35, 48, 40, 44]
+bst.valid() = False
+
+End of BST.valid testing
+--------------------
+
+--------------------
+Testing BST.reflect_vertical:
+
+Note: printing using inorder
+bst1 = []
+bst2 = []
+
+bst1 = [25]
+bst2 = [25]
+
+bst1 = [13, 25]
+bst2 = [25, 13]
+
+bst1 = [13, 25, 35]
+bst2 = [35, 25, 13]
+
+bst1 = [11, 13, 25, 35]
+bst2 = [35, 25, 13, 11]
+
+bst1 = [11, 13, 25, 35, 40]
+bst2 = [40, 35, 25, 13, 11]
+
+bst1 = [11, 13, 19, 25, 35, 40]
+bst2 = [40, 35, 25, 19, 13, 11]
+
+bst1 = [11, 13, 19, 20, 25, 35, 40]
+bst2 = [40, 35, 25, 20, 19, 13, 11]
+
+bst1 = [11, 13, 18, 19, 20, 25, 35, 40]
+bst2 = [40, 35, 25, 20, 19, 18, 13, 11]
+
+End of BST.reflect vertical testing
+--------------------
+
+--------------------
+Testing BST.property1:
+
+bst = []
+Satisfy Property 1? = True
+
+bst = [25]
+Satisfy Property 1? = True
+
+bst = [13, 25]
+Satisfy Property 1? = True
+
+bst = [11, 13, 25]
+Satisfy Property 1? = False
+
+bst = [11, 13, 19, 25]
+Satisfy Property 1? = False
+
+bst = [11, 13, 19, 25, 35]
+Satisfy Property 1? = True
+
+bst = [11, 13, 19, 20, 25, 35]
+Satisfy Property 1? = False
+
+bst = [11, 13, 19, 20, 25, 35, 40]
+Satisfy Property 1? = True
+
+bst = [11, 13, 19, 20, 25, 33, 35, 40]
+Satisfy Property 1? = True
+
+End of BST.property1 testing
+--------------------
+
+--------------------
+Testing BST.property2:
+
+bst = []
+Satisfy Property 2? = True
+
+bst = [25]
+Satisfy Property 2? = True
+
+bst = [13, 25]
+Satisfy Property 2? = False
+
+bst = [11, 13, 25]
+Satisfy Property 2? = False
+
+bst = [11, 13, 19, 25]
+Satisfy Property 2? = False
+
+bst = [11, 13, 19, 25, 35]
+Satisfy Property 2? = True
+
+bst = [11, 13, 19, 20, 25, 35]
+Satisfy Property 2? = False
+
+bst = [11, 13, 19, 20, 25, 35, 40]
+Satisfy Property 2? = False
+
+bst = [11, 13, 19, 20, 25, 33, 35, 40]
+Satisfy Property 2? = False
+
+bst = [11, 13, 18, 19, 20, 25, 33, 35, 40]
+Satisfy Property 2? = True
+
+End of BST.property2 testing
+--------------------
+

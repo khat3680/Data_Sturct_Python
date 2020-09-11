@@ -1,0 +1,216 @@
+--------------------
+Start of Task 1 Testing (stacks_to_queues):
+
+master_stack before calling function:
+3
+2
+1
+[]
+20
+10
+400
+300
+200
+100
+
+master_queue1 after calling function:
+((3 2 1) () (20 10) (400 300 200 100))
+
+Verity that master_stack1 is empty after calling function:
+[]
+
+Verifying Sizes:
+Queue 0 size = 3
+Queue 1 size = 10
+Queue 2 size = 2
+Queue 3 size = 4
+
+Contents of master_queue if master_stack is empty: ()
+Size of master_queue2 = 10
+
+Error(stacks_to_queues): invalid input
+Contents of master_queue if master_stack is invalid: ()
+Size of master_queue3 = 10
+
+End of Task 1 testing
+--------------------
+
+--------------------
+Start of Task 2 Testing (MapList):
+
+Creating months MapList (map1):
+[1-->January,2-->February,3-->March,4-->April,5-->May,6-->June,7-->July,8-->August,9-->September,10-->October,11-->November,12-->December]
+length = 12
+is_empty? = False
+
+get(3) = March
+Error(MapList.get): key not found
+get(13) = None
+
+4 in map1? = True
+14 in map1? = False
+
+index(7) = 6
+Error(MapList.index): key not found
+index(-3) = -1
+
+remove(3):
+removed item = (3, 'March')
+list afer remove =
+[1-->January,2-->February,4-->April,5-->May,6-->June,7-->July,8-->August,9-->September,10-->October,11-->November,12-->December]
+
+remove(15):
+Error(MapList.remove): key not found
+removed item = None
+list afer remove =
+[1-->January,2-->February,4-->April,5-->May,6-->June,7-->July,8-->August,9-->September,10-->October,11-->November,12-->December]
+
+
+Creating empty MapList (map2):
+[]
+length = 0
+is_empty? = True
+
+insert several items to map2
+Error(MapList.insert): invalid input
+Error(MapList.insert): invalid input
+list after insert:
+[1-->Sunday,2-->Monday,3-->Tuesday,4-->Tuesday]
+
+Comparing map1 and map2:
+map1 == map2? = False
+map1 != map2? = True
+map1 > map2? = True
+map1 >= map2? = True
+map1 < map2? = False
+map1 <= map2? = False
+
+list version of map1:
+[[1, 'January'], [2, 'February'], [4, 'April'], [5, 'May'], [6, 'June'], [7, 'July'], [8, 'August'], [9, 'September'], [10, 'October'], [11, 'November'], [12, 'December']]
+list version of map2:
+[[1, 'Sunday'], [2, 'Monday'], [3, 'Tuesday'], [4, 'Tuesday']]
+
+Get dictionary version of map1:
+Verify that output is of type dict1 = True
+dict1[6] = June
+
+Clear both maps:
+map1 = []
+map2 = []
+
+End of Task 2 testing
+--------------------
+
+--------------------
+Start of Task 3 (Round Robin Scheduler):
+
+[Timer:0]: Starting RR(8) Scheduler
+[Timer:1]: idle
+[Timer:2]: idle
+[Timer:3]: idle
+[Timer:4]: idle
+Fetching Process: [5](1000010000,7)
+[Timer:5]: 1000010000
+[Timer:6]: 1000010000
+[Timer:7]: 1000010000
+[Timer:8]: 1000010000
+[Timer:9]: 1000010000
+[Timer:10]: 1000010000
+[Timer:11]: 1000010000
+Fetching Process: [6](2000020000,6)
+[Timer:12]: 2000020000
+[Timer:13]: 2000020000
+[Timer:14]: 2000020000
+[Timer:15]: 2000020000
+[Timer:16]: 2000020000
+[Timer:17]: 2000020000
+Fetching Process: [7](3000030000,5)
+[Timer:18]: 3000030000
+[Timer:19]: 3000030000
+[Timer:20]: 3000030000
+[Timer:21]: 3000030000
+[Timer:22]: 3000030000
+Fetching Process: [16](4000040000,1)
+[Timer:23]: 4000040000
+[Timer:24]: idle
+[Timer:25]: idle
+Fetching Process: [26](5000050000,7)
+[Timer:26]: 5000050000
+[Timer:27]: 5000050000
+[Timer:28]: 5000050000
+[Timer:29]: 5000050000
+[Timer:30]: 5000050000
+[Timer:31]: 5000050000
+[Timer:32]: 5000050000
+[Timer:33]: idle
+[Timer:34]: idle
+[Timer:35]: idle
+[Timer:36]: idle
+[Timer:37]: idle
+Fetching Process: [38](6000060000,4)
+[Timer:38]: 6000060000
+[Timer:39]: 6000060000
+[Timer:40]: 6000060000
+[Timer:41]: 6000060000
+[Timer:42]: Closing RR Scheduler
+
+[Timer:0]: Starting RR(3) Scheduler
+[Timer:1]: idle
+[Timer:2]: idle
+[Timer:3]: idle
+[Timer:4]: idle
+Fetching Process: [5](1000010000,7)
+[Timer:5]: 1000010000
+[Timer:6]: 1000010000
+[Timer:7]: 1000010000
+Fetching Process: [6](2000020000,6)
+[Timer:8]: 2000020000
+[Timer:9]: 2000020000
+[Timer:10]: 2000020000
+Fetching Process: [7](3000030000,5)
+[Timer:11]: 3000030000
+[Timer:12]: 3000030000
+[Timer:13]: 3000030000
+Fetching Process: [8](1000010000,4)
+[Timer:14]: 1000010000
+[Timer:15]: 1000010000
+[Timer:16]: 1000010000
+Fetching Process: [11](2000020000,3)
+[Timer:17]: 2000020000
+[Timer:18]: 2000020000
+[Timer:19]: 2000020000
+Fetching Process: [14](3000030000,2)
+[Timer:20]: 3000030000
+[Timer:21]: 3000030000
+Fetching Process: [16](4000040000,1)
+[Timer:22]: 4000040000
+Fetching Process: [17](1000010000,1)
+[Timer:23]: 1000010000
+[Timer:24]: idle
+[Timer:25]: idle
+Fetching Process: [26](5000050000,7)
+[Timer:26]: 5000050000
+[Timer:27]: 5000050000
+[Timer:28]: 5000050000
+Fetching Process: [29](5000050000,4)
+[Timer:29]: 5000050000
+[Timer:30]: 5000050000
+[Timer:31]: 5000050000
+Fetching Process: [32](5000050000,1)
+[Timer:32]: 5000050000
+[Timer:33]: idle
+[Timer:34]: idle
+[Timer:35]: idle
+[Timer:36]: idle
+[Timer:37]: idle
+Fetching Process: [38](6000060000,4)
+[Timer:38]: 6000060000
+[Timer:39]: 6000060000
+[Timer:40]: 6000060000
+Fetching Process: [41](6000060000,1)
+[Timer:41]: 6000060000
+[Timer:42]: Closing RR Scheduler
+
+End of Task 3 testing
+--------------------
+

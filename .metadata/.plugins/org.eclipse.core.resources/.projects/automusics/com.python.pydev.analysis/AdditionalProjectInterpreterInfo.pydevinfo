@@ -1,0 +1,31 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/automusics/com.python.pydev.analysis/v2_indexcache
+MusicPlayerAutomation|1594482033292507000|/Users/anshul/Documents/CP164/automusics/src/MusicPlayerAutomation.py
+niew|1594481960212219000|/Users/anshul/Documents/CP164/automusics/src/niew.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=/Users/anshul/Documents/CP164/automusics/src/niew.py
+2=MusicPlayerAutomation
+4=niew
+1=/Users/anshul/Documents/CP164/automusics/src/MusicPlayerAutomation.py
+-- END DICTIONARY
+-- START TREE 1
+12
+bac|1|back!1^49#5*18@
+for|1|forward!1^58#5*18@
+key|1|keyboard!3^17#1*35@
+mai|2|main!1^90#5*18@main!3^42#5*34@
+out|1|output!1^18#5*18@
+pau|1|pause!1^68#5*18@
+pla|1|play!1^78#5*18@
+pre|1|pressButton!3^27#5*34@
+sta|1|start!1^27#5*18@
+sto|1|stop!1^38#5*18@
+usr|1|usrInput!3^33#5*34@
+vir|1|virtualCode!3^21#5*34@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,51 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_a03/com.python.pydev.analysis/v2_indexcache
+functions|1580440683613387000|/Users/anshul/Documents/CP164/khat3680_a03/src/functions.py
+t01|1580441369543662000|/Users/anshul/Documents/CP164/khat3680_a03/src/t01.py
+t03|1580441549312573000|/Users/anshul/Documents/CP164/khat3680_a03/src/t03.py
+t02|1580441415886050000|/Users/anshul/Documents/CP164/khat3680_a03/src/t02.py
+t05|1580441573283339000|/Users/anshul/Documents/CP164/khat3680_a03/src/t05.py
+t04|1580441532758454000|/Users/anshul/Documents/CP164/khat3680_a03/src/t04.py
+t07|1580441304808083000|/Users/anshul/Documents/CP164/khat3680_a03/src/t07.py
+t06|1580441321983562000|/Users/anshul/Documents/CP164/khat3680_a03/src/t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+11=/Users/anshul/Documents/CP164/khat3680_a03/src/t05.py
+3=/Users/anshul/Documents/CP164/khat3680_a03/src/t02.py
+8=functions
+13=/Users/anshul/Documents/CP164/khat3680_a03/src/t03.py
+15=/Users/anshul/Documents/CP164/khat3680_a03/src/t04.py
+1=/Users/anshul/Documents/CP164/khat3680_a03/src/t06.py
+9=/Users/anshul/Documents/CP164/khat3680_a03/src/t07.py
+5=/Users/anshul/Documents/CP164/khat3680_a03/src/t01.py
+7=/Users/anshul/Documents/CP164/khat3680_a03/src/functions.py
+6=t01
+14=t03
+4=t02
+12=t05
+16=t04
+10=t07
+2=t06
+-- END DICTIONARY
+-- START TREE 1
+14
+ans|1|ans!1^17#1*19@
+in_|1|in_source!3^14#1*35@
+ini|1|ini_source!5^14#1*51@
+is_|1|is_palindrome_stack!7^77#5*66@
+maz|1|maze!9^16#1*83@
+ope|1|OPERATORS!7^110#1*67@
+pal|1|palindrome!11^17#1*99@
+pos|1|postfix!7^112#5*66@
+s1|2|s1!13^14#1*115@s1!15^15#1*131@
+s2|2|s2!15^16#1*131@s2!13^15#1*115@
+sta|3|stack_combine!7^47#5*66@stack_split_alt!7^17#5*66@stack_maze!7^144#5*66@
+str|2|str_!11^15#1*99@string!1^15#1*19@
+tar|2|target!15^17#1*131@target!13^17#1*115@
+way|1|way!9^18#1*83@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

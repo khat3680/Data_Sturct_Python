@@ -1,0 +1,241 @@
+--------------------
+Testing Linked_List.pop:
+
+Creating a new linked list with arbitrary items:
+list1 = [10,20,30,40,50,60,70,80,90,100]
+
+list1.pop(0) = 10
+list1 = [20,30,40,50,60,70,80,90,100]
+
+list1.pop(2) = 40
+list1 = [20,30,50,60,70,80,90,100]
+
+list1.pop(7) = 100
+list1 = [20,30,50,60,70,80,90]
+
+list1.pop(-1) = 90
+list1 = [20,30,50,60,70,80]
+
+list1.pop(-6) = 20
+list1 = [30,50,60,70,80]
+
+list1.pop(-6) = Error(linked_List.pop): invalid i
+None
+list1 = [30,50,60,70,80]
+
+list1.pop(5) = Error(linked_List.pop): invalid i
+None
+list1 = [30,50,60,70,80]
+
+End of Linked_List.pop testing
+--------------------
+
+--------------------
+Testing Linked_List.swap:
+
+Create an empty linked list:
+list1 = []
+swap(0,2):
+Error(Linked_List.swap): empty linked list
+
+Add item 10 to list:
+list1 = [10]
+swap(0,0):
+list1 = [10]
+swap(0,1):
+Error(Linked_List.swap): invalid i or j
+list1 = [10]
+
+Add item 20 to list:
+list1 = [10,20]
+swap(1,2):
+Error(Linked_List.swap): invalid i or j
+list1 = [10,20]
+swap(2,2):
+Error(Linked_List.swap): invalid i or j
+list1 = [10,20]
+
+Add 8 more items:
+list1 = [10,20,30,40,50,60,70,80,90,100]
+
+swap(2,2):
+list1 = [10,20,30,40,50,60,70,80,90,100]
+
+swap(1,3):
+list1 = [10,40,30,20,50,60,70,80,90,100]
+
+swap(2,8):
+list1 = [10,40,90,20,50,60,70,80,30,100]
+
+swap(4,5):
+list1 = [10,40,90,20,60,50,70,80,30,100]
+
+swap(0,2):
+list1 = [90,40,10,20,60,50,70,80,30,100]
+
+swap(1,9):
+list1 = [90,100,10,20,60,50,70,80,30,40]
+
+swap(0,9):
+list1 = [40,100,10,20,60,50,70,80,30,90]
+
+swap(9,0):
+list1 = [90,100,10,20,60,50,70,80,30,40]
+
+swap(-1,-10):
+list1 = [40,100,10,20,60,50,70,80,30,90]
+
+swap(-2,-9):
+list1 = [40,30,10,20,60,50,70,80,100,90]
+
+End of Linked_List.swap testing
+--------------------
+
+--------------------
+Testing Linked_List.split :
+
+list = []
+listA = []
+listB = []
+list = []
+
+list = [0]
+listA = [0]
+listB = []
+list = []
+
+list = [0,1]
+listA = [0]
+listB = [1]
+list = []
+
+list = [0,1,2]
+listA = [0,1]
+listB = [2]
+list = []
+
+list = [0,1,2,3]
+listA = [0,1]
+listB = [2,3]
+list = []
+
+list = [0,1,2,3,4]
+listA = [0,1,2]
+listB = [3,4]
+list = []
+
+list = [0,1,2,3,4,5]
+listA = [0,1,2]
+listB = [3,4,5]
+list = []
+
+list = [0,1,2,3,4,5,6]
+listA = [0,1,2,3]
+listB = [4,5,6]
+list = []
+
+list = [0,1,2,3,4,5,6,7]
+listA = [0,1,2,3]
+listB = [4,5,6,7]
+list = []
+
+list = [0,1,2,3,4,5,6,7,8]
+listA = [0,1,2,3,4]
+listB = [5,6,7,8]
+list = []
+
+End of Linked_List.split testing
+--------------------
+
+--------------------
+Testing Linked_List.union:
+
+list1 = []
+list2 = []
+list1.uniont(list2) = []
+
+list1 = [1]
+list2 = []
+list1.uniont(list2) = [1]
+
+list1 = [1]
+list2 = [10]
+list1.uniont(list2) = [1,10]
+
+list1 = [1,1]
+list2 = [10]
+list1.uniont(list2) = [1,10]
+
+list1 = [1,1]
+list2 = [10,10]
+list1.uniont(list2) = [1,10]
+
+list1 = [1,1,2,3,2,4]
+list2 = [10,10,20,20,30]
+list1.uniont(list2) = [1,2,3,4,10,20,30]
+
+End of Linked_List.union testing
+--------------------
+
+--------------------
+Testing Linked_List.combine():
+
+Create list1 with arbitrary items
+Before combine:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+After combine:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+len(list3) = 0 , list3 = []
+
+Before combine:
+len(list1) = 5 , list1 = [10,20,30,40,50]
+len(list2) = 0 , list2 = []
+After combine:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+len(list3) = 5 , list3 = [10,20,30,40,50]
+
+Before combine:
+len(list1) = 5 , list1 = [10,20,30,40,50]
+len(list2) = 5 , list2 = [60,70,80,90,100]
+After combine:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+len(list3) = 10 , list3 = [10,20,30,40,50,60,70,80,90,100]
+
+End of Linked_List.combine testing
+--------------------
+
+--------------------
+Testing Linked_List.intersection():
+
+Create list1 with arbitrary items
+Before interesection:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+After intersection:
+len(list1) = 0 , list1 = []
+len(list2) = 0 , list2 = []
+len(list3) = 0 , list3 = []
+
+Before interesection:
+len(list1) = 5 , list1 = [10,20,30,40,50]
+len(list2) = 0 , list2 = []
+After intersection:
+len(list1) = 5 , list1 = [10,20,30,40,50]
+len(list2) = 0 , list2 = []
+len(list3) = 0 , list3 = []
+
+Before interesection:
+len(list1) = 13 , list1 = [10,20,30,40,50,40,50,60,70,80,90,100,110]
+len(list2) = 7 , list2 = [110,95,80,65,50,35,20]
+After intersection:
+len(list1) = 13 , list1 = [10,20,30,40,50,40,50,60,70,80,90,100,110]
+len(list2) = 7 , list2 = [110,95,80,65,50,35,20]
+len(list3) = 4 , list3 = [20,50,80,110]
+
+End of Linked_List.intersection testing
+--------------------
+

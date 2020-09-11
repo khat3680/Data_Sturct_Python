@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+t01.py
+--------------------------------------------------------------------------------
+False
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135

@@ -1,0 +1,35 @@
+"""
+-------------------------------------------------------
+[testing]
+-------------------------------------------------------
+Author:  Anshul Khatri
+ID:      193313680
+Email:   khat3680@mylaurier.ca
+Section: CP164 Winter 2020
+__updated__ = "2020-02-05"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Spring Rolls, Chinese
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Checking if list is empty or not:
+List is not empty
+Removing value from list:
+None
+Inserting value in list
+Number of '0' in list:
+1
+Appending in list...
+Index of '0' in list:
+-1
+Finding index of '1' :
+1
+Finding max value:
+1
+Finding min value:
+0
+-------------------------------------------------------

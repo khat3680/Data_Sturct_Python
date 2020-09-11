@@ -1,0 +1,53 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/prac/com.python.pydev.analysis/v2_indexcache
+TPPSS|1585860537043717000|/Users/anshul/Documents/CP164/prac/src/TPPSS.py
+mp3|1585860102359434000|/Users/anshul/Documents/CP164/prac/src/mp3.py
+api_calling|1585153032327573000|/Users/anshul/Documents/CP164/prac/src/api_calling.py
+test|1582756540267822000|/Users/anshul/Documents/CP164/prac/src/test.py
+kasd|1585668326893918000|/Users/anshul/Documents/CP164/prac/src/kasd.py
+jsdh|1583467461974869000|/Users/anshul/Documents/CP164/prac/src/jsdh.py
+TEST100|1586895156669501000|/Users/anshul/Documents/CP164/prac/src/TEST100.py
+midterm|1581520732040495000|/Users/anshul/Documents/CP164/prac/src/midterm.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+1=/Users/anshul/Documents/CP164/prac/src/jsdh.py
+10=api_calling
+14=test
+5=/Users/anshul/Documents/CP164/prac/src/kasd.py
+11=/Users/anshul/Documents/CP164/prac/src/TEST100.py
+7=/Users/anshul/Documents/CP164/prac/src/midterm.py
+4=mp3
+16=TPPSS
+3=/Users/anshul/Documents/CP164/prac/src/mp3.py
+6=kasd
+15=/Users/anshul/Documents/CP164/prac/src/TPPSS.py
+9=/Users/anshul/Documents/CP164/prac/src/api_calling.py
+2=jsdh
+12=TEST100
+8=midterm
+13=/Users/anshul/Documents/CP164/prac/src/test.py
+-- END DICTIONARY
+-- START TREE 1
+16
+__g|1|__getitem__!1^12#5*18@
+aud|1|audio_config!3^33#1*35@
+cli|1|client!3^20#1*35@
+com|1|combine!5^97#5*50@
+foo|1|foods!7^38#1*67@
+fv|1|fv!7^35#1*67@
+hea|1|headers!9^15#1*83@
+lis|1|list!11^15#1*99@
+low|1|low_cal!7^14#5*66@
+lst|1|lst!13^14#1*115@
+r|1|r!9^17#1*83@
+res|1|response!3^37#1*35@
+run|1|run_quickstart!15^12#5*130@
+sen|1|sent!11^12#1*99@
+syn|1|synthesis_input!3^23#1*35@
+voi|1|voice!3^29#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

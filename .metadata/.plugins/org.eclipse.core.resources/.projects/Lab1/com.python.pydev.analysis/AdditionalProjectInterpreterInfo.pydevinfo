@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/Lab1/com.python.pydev.analysis/v2_indexcache
+Lab1|1589774133336314000|/Users/anshul/Documents/CP164/Lab1/src/Lab1.py
+lab1_test|1589773841595002000|/Users/anshul/Documents/CP164/Lab1/src/lab1_test.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=Lab1
+1=/Users/anshul/Documents/CP164/Lab1/src/Lab1.py
+3=/Users/anshul/Documents/CP164/Lab1/src/lab1_test.py
+4=lab1_test
+-- END DICTIONARY
+-- START TREE 1
+9
+get|1|get_num_baskets!1^71#5*18@
+is_|2|is_array!1^52#5*18@is_valid_container!1^93#5*18@
+que|1|query_airports_DB!1^30#5*18@
+rea|1|read_airports!1^10#5*18@
+t1|1|t1!3^3#5*34@
+t2|1|t2!3^25#5*34@
+t3|1|t3!3^65#5*34@
+t4|1|t4!3^86#5*34@
+t5|1|t5!3^102#5*34@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

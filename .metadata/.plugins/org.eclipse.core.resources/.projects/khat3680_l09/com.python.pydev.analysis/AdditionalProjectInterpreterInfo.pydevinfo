@@ -1,0 +1,29 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_l09/com.python.pydev.analysis/v2_indexcache
+functions|1585261661098801000|/Users/anshul/Documents/CP164/khat3680_l09/src/functions.py
+t01|1585262326646269000|/Users/anshul/Documents/CP164/khat3680_l09/src/t01.py
+t03|1585262583897938000|/Users/anshul/Documents/CP164/khat3680_l09/src/t03.py
+t02|1585262485555807000|/Users/anshul/Documents/CP164/khat3680_l09/src/t02.py
+t04|1585262266009587000|/Users/anshul/Documents/CP164/khat3680_l09/src/t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+3=/Users/anshul/Documents/CP164/khat3680_l09/src/t03.py
+5=/Users/anshul/Documents/CP164/khat3680_l09/src/t02.py
+1=/Users/anshul/Documents/CP164/khat3680_l09/src/t01.py
+2=t01
+8=functions
+4=t03
+6=t02
+7=/Users/anshul/Documents/CP164/khat3680_l09/src/functions.py
+-- END DICTIONARY
+-- START TREE 1
+3
+f_v|1|f_v!1^15#1*19@
+foo|1|foods!1^17#1*19@
+has|3|hash_set!3^15#1*35@hash_set!5^14#1*51@hash_table!7^13#5*66@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

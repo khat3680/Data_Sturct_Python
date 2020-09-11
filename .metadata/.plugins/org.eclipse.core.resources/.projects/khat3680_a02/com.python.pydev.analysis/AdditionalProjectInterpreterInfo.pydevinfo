@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/anshul/Documents/CP164/.metadata/.plugins/org.eclipse.core.resources/.projects/khat3680_a02/com.python.pydev.analysis/v2_indexcache
+t01|1585654240128437000|/Users/anshul/Documents/CP164/khat3680_a02/src/t01.py
+t03|1579842208174241000|/Users/anshul/Documents/CP164/khat3680_a02/src/t03.py
+t02|1579842245195904000|/Users/anshul/Documents/CP164/khat3680_a02/src/t02.py
+t05|1579843797156459000|/Users/anshul/Documents/CP164/khat3680_a02/src/t05.py
+t04|1579842618262304000|/Users/anshul/Documents/CP164/khat3680_a02/src/t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+3=/Users/anshul/Documents/CP164/khat3680_a02/src/t04.py
+6=t01
+9=/Users/anshul/Documents/CP164/khat3680_a02/src/t03.py
+10=t03
+1=/Users/anshul/Documents/CP164/khat3680_a02/src/t05.py
+8=t02
+2=t05
+4=t04
+5=/Users/anshul/Documents/CP164/khat3680_a02/src/t01.py
+7=/Users/anshul/Documents/CP164/khat3680_a02/src/t02.py
+-- END DICTIONARY
+-- START TREE 1
+9
+foo|3|foods!1^18#1*19@foods!3^16#1*35@foods!5^19#1*51@
+fv|3|fv!5^16#1*51@fv!3^14#1*35@fv!1^15#1*19@
+goo|2|goo!7^17#1*67@goo!9^17#1*83@
+is_|1|is_veg!1^20#1*19@
+k|2|k!9^16#1*83@k!7^16#1*67@
+max|1|max_cals!1^19#1*19@
+ori|3|origin!1^17#1*19@origins!5^20#1*51@origin!5^18#1*51@
+pre|1|preference!9^19#1*83@
+res|1|results!1^22#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
